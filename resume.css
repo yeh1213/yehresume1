@@ -1,0 +1,146 @@
+#header{color:rgb(12, 12, 12);
+text-align: center;
+font-size: 30px;
+}
+
+
+body {
+    font-family: 'Noto Sans TC', Arial, sans-serif;
+    background-color: #f9f9fb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.cat{
+    display: block;
+    margin: 0% auto;
+    border-radius: 50%;
+}
+#all {
+    background-color: #fff;
+    max-width: 960px;
+    margin: 40px auto;  
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#header {
+    color: #333;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+#sleep {
+    text-align: center;
+    color: #666;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#school {
+    background-color: #eef2f7;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#class {
+    width: 100%;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #7e57c2;
+    color: white;
+}
+
+tbody td:first-child {
+    background-color: #ede7f6;
+    font-weight: bold;
+}
+
+.class-cell {
+    background-color: #f4eafc;
+}
+
+.time-col {
+    background-color: #f3d7ec;
+}
+
+.empty {
+    background-color: #f5f5f5;
+}
+@media (max-width: 768px) {
+    #all {
+        padding: 20px;
+    }
+
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    th {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    td {
+        position: relative;
+        padding-left: 50%;
+        text-align: left;
+    }
+
+    td::before {
+        position: absolute;
+        top: 12px;
+        left: 12px;
+        width: 45%;
+        white-space: nowrap;
+        font-weight: bold;
+    }
+
+    tbody td:first-child {
+        background-color: transparent;
+        font-weight: normal;
+    }
+}
+.menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+
+}
+.menu a {
+    display: block;
+    padding: 10px;
+    background: #eeb6e5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+}
+.menu a:hover{
+    background: #eaf09d;
+}
